@@ -9,19 +9,19 @@ public class Project {
 	{
 		//Instantiate hero
 		StrongMan hero = new StrongMan("Big Man");
-		hero.fight();
-		hero.run();
+		hero.fights();
+		hero.runs();
 		hero.showAbilities();
 		
 		//Instantiate villain
 		Villain villain = new Villain("Robin");
-		villain.run();
+		villain.runs();
 		villain.steals();
 		villain.showAbilities();
 		
 		//Instantiate vigilante
 		Vigilante vigilante = new Vigilante("Steve");
-		vigilante.run();
+		vigilante.runs();
 		vigilante.steals();
 		vigilante.dealsJustice();
 		vigilante.showAbilities();

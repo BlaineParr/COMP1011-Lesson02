@@ -3,7 +3,7 @@
  * @author Blaine Parr
  * @version January 15, 2015
  */
-public class Hero 
+public class Hero implements Action
 {
 	//Private properties +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 	protected int strength;
@@ -42,12 +42,12 @@ public class Hero
 		System.out.println("++++++++++\nStrength: " + this.strength + "\nSpeed: " + this.speed + "\nHealth: " + this.health + "\n++++++++++");
 	} //method showAbilities ends
 	
-	public void fight()
+	public void fights()
 	{
 		System.out.println(this.name + " is fighting!");
 	} //method fight ends
 	
-	public void run()
+	public void runs()
 	{
 		System.out.println(this.name + " is running!");
 	} //method run ends
